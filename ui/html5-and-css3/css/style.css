@@ -1,0 +1,20 @@
+body{
+    background-color: olive;
+    color: white;
+}
+#signup-div, #login-div{
+    border: 2px solid white;
+    width: fit-content;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+}
+#link{
+    color: white;
+}
+
+ul li {
+    display: inline;
+    margin: 20px;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function validate(){
+        var age = parseInt(document.getElementById("age").value);
+        if(age >= 18){
+            alert("Eligible to vote");
+        } else {
+            alert("Not Eligible to vote");
+        }
+    }
+</script>
+<body>
+    <h2>If Condition Demo</h2>
+    Enter Age: <input type="text" id="age" /><br /> <br />
+    <button onclick="validate()">Validate Age</button>
+</body>
+</html>

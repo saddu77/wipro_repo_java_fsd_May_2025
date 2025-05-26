@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    console.log('start');
+
+    function greet(name,callback){
+        console.log('Hello World');
+        callback(name);
+    }
+    //callback function
+    function sayName(name){
+        console.log('Hello ' +  ' ' + name);
+    }
+
+    setTimeout(greet, 2000, 'John', sayName);   
+</script>
+<body>
+    <h2>Callback Function </h2>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+<script>
+    $(document).ready(function(){
+        $("#hideBtn").click(function(){
+            $("#para").hide();
+        });
+
+        $("#showBtn").click(function(){
+            $("#para").show();
+        });
+
+        $("#toggleBtn").click(function(){
+            $("#para").toggle();
+        });
+    })
+</script>
+<body>
+    <h2>JQuery Hide and Show Demo</h2>
+    <p id="para">This is a Paragraph </p>
+    <button id="hideBtn">Hide</button>
+    <button id="showBtn">Show</button>
+    <button id="toggleBtn">Toggle</button>
+</body>
+</html>

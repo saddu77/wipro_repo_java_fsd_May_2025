@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    let person = {
+        firstName:'John',
+        lastName: 'Doe'
+    };
+    console.log(person.firstName);
+    console.log(person.lastName);
+    console.log(person["firstName"] + " " + person["lastName"]);
+    // Adding age property to person object
+    person.age = 21;
+    console.log(person);
+    // Deleting lastName property to person object
+    delete person.lastName
+    console.log(person);
+
+</script>
+<body>
+    <h2>Javascript Objects</h2>
+    <p>In Javascript , an Object is an unordered collection of key-value pairs.</p>
+</body>
+</html>

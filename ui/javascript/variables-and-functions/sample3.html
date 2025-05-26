@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function addition(){
+        var n1 = document.getElementById("num1").value;
+        var n2 = document.getElementById("num2").value;
+        var res;
+        res = parseInt(n1) + parseInt(n2);
+        document.getElementById("res").value = res;
+    }
+</script>
+<body>
+    <h2>Javascript Addition Demo</h2>
+    <input type="text" id="num1"> + 
+    <input type="text" id="num2"> =
+    <input type="text" id="res"> <br /> <br />
+    <button onclick="addition()">ADD</button>
+</body>
+</html>
